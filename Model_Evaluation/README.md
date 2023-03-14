@@ -18,28 +18,30 @@ To use ChemProp with GPUs, you will need:
 * cuDNN
 
 
-### Installation
+## Installation
 ChemProp can be installed at https://github.com/chemprop/chemprop 
 
-### DeepDelta5x10CV_ExtPred.py
+## Python Scripts
+
+#### DeepDelta5x10CV_ExtPred.py
 Code to run 5x10 fold cross validation and external test set predictions for the DeepDelta model. Also contains functions for reverse predictions for Eq. 2: DeepDelta(x,y)= -DeepDelta(y,x).
 
-### ChemProp5x10CV_ExtPred.py
+#### ChemProp5x10CV_ExtPred.py
 Code to run 5x10 fold cross validation and external test set predictions for the ChemProp model. 
 
-### RF-LGBM-Control5x10CV.ipynb
+#### RF-LGBM-Control5x10CV.ipynb
 Code to run 5x10 fold cross validation for the Random Forest and LightGBM models. 
 
-## GenerateCTRLModels.ipynb
+#### GenerateCTRLModels.ipynb
 Code to generate and save trained Random Forest and LightGBM models.
 
-## RF-LGBM-CTRLExtPreds.ipynb
+### RF-LGBM-CTRLExtPreds.ipynb
 Code to run external test set predictions for the Random Forest and LightGBM models from saved models. 
 
-## LGBMDelta5x10CV.ipynb
+### LGBMDelta5x10CV.ipynb
 Code to run 5x10 fold cross validation and save the LightGBM delta models. 
 
-## LGBMDeltaExtPreds.ipynb
+### LGBMDeltaExtPreds.ipynb
 Code to run external test set predictions for the LightGBM delta models from saved models. 
 
 ## PlotCVData.ipynb
