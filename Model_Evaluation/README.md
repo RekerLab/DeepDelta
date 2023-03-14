@@ -35,26 +35,26 @@ Code to run 5x10 fold cross validation for the Random Forest and LightGBM models
 #### GenerateCTRLModels.ipynb
 Code to generate and save trained Random Forest and LightGBM models.
 
-### RF-LGBM-CTRLExtPreds.ipynb
+#### RF-LGBM-CTRLExtPreds.ipynb
 Code to run external test set predictions for the Random Forest and LightGBM models from saved models. 
 
-### LGBMDelta5x10CV.ipynb
+#### LGBMDelta5x10CV.ipynb
 Code to run 5x10 fold cross validation and save the LightGBM delta models. 
 
-### LGBMDeltaExtPreds.ipynb
+#### LGBMDeltaExtPreds.ipynb
 Code to run external test set predictions for the LightGBM delta models from saved models. 
 
-## PlotCVData.ipynb
+#### PlotCVData.ipynb
 Code to visualize cross-validation data and run statistics. 
 
-## ChemSimilarityVsPredictions.ipynb
+#### ChemSimilarityVsPredictions.ipynb
 Code to compare the chemical similarity of pairs to the delta values and predictive error of the pairs. 
 
-## SameScaffoldAnalysis.ipynb
+#### SameScaffoldAnalysis.ipynb
 Code to compare the chemical pairs with shared scaffolds to pairs who do not share scaffolds. 
 
-## EquationOne.ipynb
+#### EquationOne.ipynb
 Code to calculate property differences for exact same molecular inputs to satisfy Eq 1: DeepDelta(x,x)= 0. 
 
-## EquationThree.py
+#### EquationThree.py
 Code to calculate if the predicted difference between three molecules are additive to satisfy Eq 3: DeepDelta(x,y)  + DeepDelta(y,z)= DeepDelta(x,z)
