@@ -5,6 +5,7 @@
 * [scikit-learn](https://scikit-learn.org/stable/)
 * [numpy](https://numpy.org/)
 * [pandas](https://github.com/pandas-dev/pandas)
+* [LightGBM](https://www.microsoft.com/en-us/research/project/lightgbm/)
 
 Given the larger size of delta datasets, we recommend using a GPU for significantly faster training.
 
