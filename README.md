@@ -10,15 +10,28 @@ For more information, please refer to: *pre-print link*
 
 If you use this data or code, please kindly cite: *pre-print citation*
 
+## Requirements
+RDKit
+Scikit-learn
+Numpy
+Pandas
+
+Given the larger size of delta datasets, we recommend using a GPU for significantly faster training.
+
+To use chemprop with GPUs, you will need:
+cuda >= 8.0
+cuDNN
 
 
+## Installation
+ChemProp can be be installed at https://github.com/chemprop/chemprop 
 
 
 ## Descriptions of Folders
 
 ### Datasets
 
-Training Data for 10 ADMET property benchmarking datasets and 2 external test sets.
+Curated data for 10 ADMET property benchmarking training sets and 2 external test sets.
 
 ### Model Evaluation
 
