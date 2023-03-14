@@ -11,10 +11,10 @@ For more information, please refer to: *pre-print link*
 If you use this data or code, please kindly cite: *pre-print citation*
 
 ## Requirements
-RDKit
-Scikit-learn
-Numpy
-Pandas
+* [RDKit](https://www.rdkit.org/docs/Install.html)
+* [scikit-learn](https://scikit-learn.org/stable/)
+* [numpy](https://numpy.org/)
+* [pandas](https://github.com/pandas-dev/pandas)
 
 Given the larger size of delta datasets, we recommend using a GPU for significantly faster training.
 
