@@ -6,9 +6,9 @@ DeepDelta is a pairwise deep learning approach that processes two molecules simu
 
 Furthermore, we derive simple computational tests of our models based on first mathematical principles and show that compliance to these tests correlate with overall model performance – providing an innovative, unsupervised, and easily computable measure of expected model performance and applicability. Taken together, DeepDelta provides an accurate approach to predict molecular property differences and will allow for higher fidelity and transparency in molecular optimization for drug development and the chemical sciences. 
 
-For more information, please refer to: 
+For more information, please refer to: *pre-print link*
 
-If you use this data or code, please kindly cite:
+If you use this data or code, please kindly cite: *pre-print citation*
 
 
 # Descriptions of Folders
