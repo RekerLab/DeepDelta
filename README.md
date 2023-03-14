@@ -4,7 +4,7 @@ DeepDelta is a pairwise deep learning approach that processes two molecules simu
 ![image](https://user-images.githubusercontent.com/127516906/224864795-0bb1e827-9447-489b-9a9b-a60f01bb2526.png)
 **Figure 1: Traditional and Pairwise Architectures. (A)** Traditional molecular machine learning models take singular molecular inputs and predict absolute properties of molecules. Predicted property differences can be calculated by subtracting predicted values for two molecules. **(B)** Pairwise models train on differences in properties from pairs of molecules to directly predict property changes of molecular derivatizations. **(C)** Molecules cross-merged to create pairs only after cross-validation splits to prevent the risk of data leakage during model evaluation. Through this, every molecule in the dataset can only occur in pairs in the training or testing data but not both.
 
-Furthermore, we derive simple computational tests of our models based on first mathematical principles and show that compliance to these tests correlate with overall model performance – providing an innovative, unsupervised, and easily computable measure of expected model performance and applicability. Taken together, DeepDelta provides an accurate approach to predict molecular property differences and will allow for higher fidelity and transparency in molecular optimization for drug development and the chemical sciences. 
+We also derive simple computational tests of our models based on first mathematical principles and show that compliance to these tests correlate with overall model performance – providing an innovative, unsupervised, and easily computable measure of expected model performance and applicability. 
 
 For more information, please refer to: *pre-print link*
 
