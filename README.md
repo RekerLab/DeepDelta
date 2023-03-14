@@ -18,9 +18,9 @@ If you use this data or code, please kindly cite: *pre-print citation*
 
 Given the larger size of delta datasets, we recommend using a GPU for significantly faster training.
 
-To use chemprop with GPUs, you will need:
-cuda >= 8.0
-cuDNN
+To use ChemProp with GPUs, you will need:
+* cuda >= 8.0
+* cuDNN
 
 
 ## Installation
