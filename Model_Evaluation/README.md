@@ -59,10 +59,58 @@ Code to compare the chemical similarity of pairs to the delta values and predict
 Code to compare the chemical pairs with shared scaffolds to pairs who do not share scaffolds. 
 
 #### EquationOne.ipynb
-Code to calculate property differences for exact same molecular inputs to satisfy Eq 1 (with same molecule for both inputs, predictions should be zero): 
+Code to calculate property differences for exact same molecular inputs to satisfy Eq 1: 
+
+<p align="center">
+Predicted difference between three molecules should be additive:
+</p>
+
 ```math
 DeepDelta(x,x)= 0. 
 ```
+
+
+<p align="center">
+Mathematical Principle 1
+</p>
+
+<p align="center"> 
+  With same molecule for both inputs, predictions should be zero:
+</p>
+
+```math
+DeepDelta(x,x)= 0
+```
+
+<br />
+
+<p align="center">
+  Mathematical Principle 2
+</p>
+
+<p align="center">
+With swapped input molecules, predictions should be inversed: 
+</p>
+
+```math
+DeepDelta(x,y)= - DeepDelta(y,x) 
+```
+
+<br />
+
+<p align="center">
+  Mathematical Principle 3
+</p>
+
+<p align="center">
+Predicted difference between three molecules should be additive:
+ </p>
+ 
+```math
+DeepDelta(x,y) + DeepDelta(y,z)= DeepDelta(x,z)
+```
+
+<br />
 
 #### EquationThree.py
 Code to calculate if the predicted difference between three molecules are additive to satisfy Eq 3 (predicted difference between three molecules should be additive):
