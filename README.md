@@ -10,6 +10,7 @@ On 10 pharmacokinetic benchmark tasks, our DeepDelta approach outperforms two es
 <p align="center">
   With same molecule for both inputs, predictions should be zero:
 </p>
+
 ```math
 DeepDelta(x,x)= 0
 ```
@@ -18,6 +19,7 @@ DeepDelta(x,x)= 0
 <p align="center">
 With swapped input molecules, predictions should be inversed: 
 </p>
+
 ```math
 DeepDelta(x,y)= - DeepDelta(y,x) 
 ```
@@ -26,9 +28,11 @@ DeepDelta(x,y)= - DeepDelta(y,x)
 <p align="center">
 Predicted difference between three molecules should be additive:
  </p>
+ 
 ```math
 DeepDelta(x,y) + DeepDelta(y,z)= DeepDelta(x,z)
 ```
+
 <br />
 
 
