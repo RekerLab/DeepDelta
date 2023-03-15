@@ -14,7 +14,7 @@ We also derive three simple computational tests of our models based on first mat
 </p>
 
 <p align="center"> 
-  With same molecule for both inputs, predictions should be zero:<i>
+  With same molecule for both inputs, predictions should be zero:
 </p>
 
 ```math
