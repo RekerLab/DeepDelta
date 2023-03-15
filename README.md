@@ -56,6 +56,7 @@ For more information, please refer to: *pre-print link*
 
 If you use this data or code, please kindly cite: *pre-print citation*
 
+<br />
 
 ## Requirements
 * [RDKit](https://www.rdkit.org/docs/Install.html)
@@ -74,10 +75,13 @@ To use ChemProp with GPUs, you will need:
 * cuda >= 8.0
 * cuDNN
 
+<br />
+
 
 ## Installation
 ChemProp can be be installed from https://github.com/chemprop/chemprop 
 
+<br />
 
 ## Descriptions of Folders
 
