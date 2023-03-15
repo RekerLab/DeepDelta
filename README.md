@@ -10,11 +10,11 @@ We also derive three simple computational tests of our models based on first mat
 
 
 <p align="center">
-Other <b>Mathematical Principle 1<b> Other
+<b>Mathematical Principle 1<b>
 </p>
 
 <p align="center"> 
-  <i>With same molecule for both inputs, predictions should be zero:<i>
+  With same molecule for both inputs, predictions should be zero:<i>
 </p>
 
 ```math
@@ -38,7 +38,7 @@ DeepDelta(x,y)= - DeepDelta(y,x)
 <br />
 
 <p align="center">
-  Mathematical Principle 3
+  <b>Mathematical Principle 3<b>
 </p>
 
 <p align="center">
