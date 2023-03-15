@@ -6,6 +6,8 @@ DeepDelta is a pairwise deep learning approach that processes two molecules simu
 
 On 10 pharmacokinetic benchmark tasks, our DeepDelta approach outperforms two established molecular machine learning algorithms, the message passing neural network (MPNN) ChemProp and Random Forest using radial fingerprints. We also derive simple computational tests of our models based on first mathematical principles and show that compliance to these tests correlate with overall model performance – providing an innovative, unsupervised, and easily computable measure of expected model performance and applicability. 
 
+<br />
+
 <p align="center">
 Mathematical Principle 1
 </p>
@@ -18,9 +20,13 @@ Mathematical Principle 1
 DeepDelta(x,x)= 0
 ```
 
+<br />
 
 <p align="center">
   Mathematical Principle 2
+</p>
+
+<p align="center">
 With swapped input molecules, predictions should be inversed: 
 </p>
 
@@ -28,9 +34,13 @@ With swapped input molecules, predictions should be inversed:
 DeepDelta(x,y)= - DeepDelta(y,x) 
 ```
 
+<br />
 
 <p align="center">
   Mathematical Principle 3
+</p>
+
+<p align="center">
 Predicted difference between three molecules should be additive:
  </p>
  
@@ -64,10 +74,12 @@ To use ChemProp with GPUs, you will need:
 * cuda >= 8.0
 * cuDNN
 
+<br />
 
 ## Installation
 ChemProp can be be installed from https://github.com/chemprop/chemprop 
 
+<br />
 
 ## Descriptions of Folders
 
