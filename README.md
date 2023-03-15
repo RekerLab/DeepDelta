@@ -23,11 +23,14 @@ Predicted difference between three molecules should be additive:
 ```math
 DeepDelta(x,y) + DeepDelta(y,z)= DeepDelta(x,z)
 ```
+<br />
 
 
 For more information, please refer to: *pre-print link*
 
 If you use this data or code, please kindly cite: *pre-print citation*
+
+<br />
 
 ## Requirements
 * [RDKit](https://www.rdkit.org/docs/Install.html)
