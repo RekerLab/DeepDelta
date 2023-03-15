@@ -24,7 +24,7 @@ DeepDelta(x,x)= 0
 <br />
 
 <p align="center">
-  Mathematical Principle 2
+  <b>Mathematical Principle 2<b>
 </p>
 
 <p align="center">
