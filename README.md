@@ -10,7 +10,9 @@ We also derive three simple computational tests of our models based on first mat
 
 
 <p align="center">
+  <pre>
 <b>Mathematical<b> Principle 1
+</pre>
 </p>
 
 <p align="center"> 
