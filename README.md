@@ -8,7 +8,6 @@ On 10 pharmacokinetic benchmark tasks, our DeepDelta approach outperforms two es
 
 We also derive simple computational tests of our models based on first mathematical principles and show that compliance to these tests correlate with overall model performance – providing an innovative, unsupervised, and easily computable measure of expected model performance and applicability. 
 
-<br />
 
 <p align="center">
 Mathematical Principle 1
