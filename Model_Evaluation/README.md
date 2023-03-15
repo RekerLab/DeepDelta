@@ -57,4 +57,5 @@ Code to compare the chemical pairs with shared scaffolds to pairs who do not sha
 Code to calculate property differences for exact same molecular inputs to satisfy Eq 1: DeepDelta(x,x)= 0. 
 
 #### EquationThree.py
-Code to calculate if the predicted difference between three molecules are additive to satisfy Eq 3: DeepDelta(x,y)  + DeepDelta(y,z)= DeepDelta(x,z).
+Code to calculate if the predicted difference between three molecules are additive to satisfy Eq 3:
+$$  DeepDelta(x,y) + DeepDelta(y,z)= DeepDelta(x,z) $$
