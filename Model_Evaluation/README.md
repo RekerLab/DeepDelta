@@ -24,7 +24,9 @@ ChemProp can be installed from https://github.com/chemprop/chemprop
 ## Python Scripts
 
 #### DeepDelta5x10CV_ExtPred.py
-Code to run 5x10 fold cross validation and external test set predictions for the DeepDelta model. Also contains functions for reverse predictions for Eq. 2:
+Code to run 5x10 fold cross validation and external test set predictions for the DeepDelta model. 
+
+Also contains function for reverse predictions for Eq. 2 (with swapped input molecules, predictions should be the inverse of the original predictions):
 ```math
 DeepDelta(x,y)= -DeepDelta(y,x).
 ```
@@ -57,14 +59,13 @@ Code to compare the chemical similarity of pairs to the delta values and predict
 Code to compare the chemical pairs with shared scaffolds to pairs who do not share scaffolds. 
 
 #### EquationOne.ipynb
-Code to calculate property differences for exact same molecular inputs to satisfy Eq 1: 
+Code to calculate property differences for exact same molecular inputs to satisfy Eq 1 (with same molecule for both inputs, predictions should be zero): 
 ```math
 DeepDelta(x,x)= 0. 
 ```
 
 #### EquationThree.py
-Code to calculate if the predicted difference between three molecules are additive to satisfy Eq 3:
-
+Code to calculate if the predicted difference between three molecules are additive to satisfy Eq 3 (predicted difference between three molecules should be additive):
 ```math
 DeepDelta(x,y) + DeepDelta(y,z)= DeepDelta(x,z)
 ```
