@@ -8,7 +8,7 @@ On 10 pharmacokinetic benchmark tasks, our DeepDelta approach outperforms two es
 
 #### Mathematical Principle 1
 
-<p style="text-align: center;">
+<p align="center">
   With same molecule for both inputs, predictions should be zero:
 </p>
 
