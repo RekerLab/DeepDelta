@@ -7,23 +7,25 @@ DeepDelta is a pairwise deep learning approach that processes two molecules simu
 On 10 pharmacokinetic benchmark tasks, our DeepDelta approach outperforms two established molecular machine learning algorithms, the message passing neural network (MPNN) ChemProp and Random Forest using radial fingerprints. We also derive simple computational tests of our models based on first mathematical principles and show that compliance to these tests correlate with overall model performance – providing an innovative, unsupervised, and easily computable measure of expected model performance and applicability. 
 
 #### Mathematical Principle 1
-
 <p align="center">
   With same molecule for both inputs, predictions should be zero:
 </p>
-
 ```math
 DeepDelta(x,x)= 0
 ```
 
 #### Mathematical Principle 2
+<p align="center">
 With swapped input molecules, predictions should be inversed: 
+</p>
 ```math
 DeepDelta(x,y)= - DeepDelta(y,x) 
 ```
 
 #### Mathematical Principle 3
+<p align="center">
 Predicted difference between three molecules should be additive:
+ </p>
 ```math
 DeepDelta(x,y) + DeepDelta(y,z)= DeepDelta(x,z)
 ```
