@@ -18,7 +18,7 @@ DeepDelta(x,x)= 0
 
 
 <p align="center">
-  #### Mathematical Principle 2
+  **Mathematical Principle 2**
 With swapped input molecules, predictions should be inversed: 
 </p>
 
