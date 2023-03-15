@@ -58,4 +58,7 @@ Code to calculate property differences for exact same molecular inputs to satisf
 
 #### EquationThree.py
 Code to calculate if the predicted difference between three molecules are additive to satisfy Eq 3:
-$$  DeepDelta(x,y) + DeepDelta(y,z)= DeepDelta(x,z) $$
+
+```math
+DeepDelta(x,y) + DeepDelta(y,z)= DeepDelta(x,z)
+```
