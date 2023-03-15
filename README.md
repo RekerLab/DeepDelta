@@ -10,7 +10,7 @@ We also derive three simple computational tests of our models based on first mat
 
 
 <p align="center">
-<b>Mathematical Principle 1<b>
+<b>Mathematical<b> Principle 1
 </p>
 
 <p align="center"> 
@@ -24,7 +24,7 @@ DeepDelta(x,x)= 0
 <br />
 
 <p align="center">
-  <b>Mathematical Principle 2<b>
+  Mathematical Principle 2
 </p>
 
 <p align="center">
@@ -38,7 +38,7 @@ DeepDelta(x,y)= - DeepDelta(y,x)
 <br />
 
 <p align="center">
-  <b>Mathematical Principle 3<b>
+  Mathematical Principle 3
 </p>
 
 <p align="center">
