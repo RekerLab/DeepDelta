@@ -16,7 +16,7 @@ Code to run 5x10 fold cross validation, generate and save trained models, and ru
 Code to analyze the chemical similarity of pairs and compare the chemical pairs with shared scaffolds to pairs who do not share scaffolds. 
 
 #### Mathematical-Principle-Analysis.py
-Code to calculate property differences for exact same molecular inputs to satisfy Eq 1 (with same molecule for both inputs, predictions should be zero): 
+Code to calculate property differences of same molecule pairs for Eq 1 (with same molecule for both inputs, predictions should be zero): 
 ```math
 DeepDelta(x,x)= 0. 
 ```
@@ -25,7 +25,7 @@ and calculate reverse predictions for Eq. 2 (with swapped input molecules, predi
 DeepDelta(x,y)= -DeepDelta(y,x).
 ```
 
-and calculate if the predicted difference between three molecules are additive to satisfy Eq 3 (predicted difference between three molecules should be additive):
+and calculate predicted differences between three molecules for Eq. 3 (predicted difference between three molecules should be additive):
 ```math
 DeepDelta(x,y) + DeepDelta(y,z)= DeepDelta(x,z)
 ```
