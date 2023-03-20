@@ -1,16 +1,16 @@
 # Code for Model Evaluation
 
 #### DeepDelta-5x10CV-ExtPred.py
-Code to run 5x10 fold cross validation and external test set predictions for the DeepDelta model. 
+Code to run 5x10 fold cross validation and external test set predictions for the DeepDelta models. 
 
 #### ChemProp-5x10CV-ExtPred.py
-Code to run 5x10 fold cross validation and external test set predictions for the ChemProp model. 
+Code to run 5x10 fold cross validation and external test set predictions for the ChemProp models. 
 
 #### RF-5x10CV-ExtPred.py
-Code to run 5x10 fold cross validation and run external test set predictions for the Random Forest model. 
+Code to run 5x10 fold cross validation and run external test set predictions for the Random Forest models. 
 
 #### LGBM-Control-5x10CV-ExtPred.py
-Code to run 5x10 fold cross validation and run external test set predictions for the LightGBM traditional model. 
+Code to run 5x10 fold cross validation and run external test set predictions for the LightGBM traditional models. 
 
 #### LGBM-Delta-5x10CV-ExtPred.py
 Code to run 5x10 fold cross validation and run external test set predictions for the LightGBM delta models. 
