@@ -2,10 +2,10 @@
 
 ## Model Training, Cross-Validation, and External Test Set Predictions
 
-#### DeepDelta-5x10CV-ExtPred.py
+### DeepDelta-5x10CV-ExtPred.py
 * DeepDelta models. 
 
-#### ChemProp-5x10CV-ExtPred.py
+### ChemProp-5x10CV-ExtPred.py
 * ChemProp models. 
 
 #### RF-5x10CV-ExtPred.py
