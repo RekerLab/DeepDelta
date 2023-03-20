@@ -1,28 +1,5 @@
 # Code for Model Evaluation
 
-## Requirements
-* [RDKit](https://www.rdkit.org/docs/Install.html)
-* [scikit-learn](https://scikit-learn.org/stable/)
-* [numpy](https://numpy.org/)
-* [pandas](https://github.com/pandas-dev/pandas)
-
-Comparison Models
-* [Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
-* [ChemProp](https://github.com/chemprop/chemprop)
-* [LightGBM](https://www.microsoft.com/en-us/research/project/lightgbm/)
-
-Given the larger size of delta datasets, we recommend using a GPU for significantly faster training.
-
-To use ChemProp with GPUs, you will need:
-* cuda >= 8.0
-* cuDNN
-
-
-## Installation
-ChemProp can be installed from https://github.com/chemprop/chemprop 
-
-## Python Scripts
-
 #### DeepDelta5x10CV_ExtPred.py
 Code to run 5x10 fold cross validation and external test set predictions for the DeepDelta model. 
 
