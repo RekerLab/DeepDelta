@@ -92,4 +92,4 @@ Curated data for 10 ADMET property benchmarking training sets and 2 external tes
 
 ### Model Evaluation
 
-Python code for evaluating DeepDelta and traditional models.
+Python code for evaluating DeepDelta and traditional models on their ability to predict property differences between two molecules.
