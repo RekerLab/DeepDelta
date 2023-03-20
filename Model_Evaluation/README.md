@@ -3,7 +3,7 @@
 ## Model Training, Cross-Validation, and External Test Set Predictions
 
 #### DeepDelta-5x10CV-ExtPred.py
-* DeepDelta  
+* [DeepDelta](https://github.com/RekerLab/DeepDelta)
 
 #### ChemProp-5x10CV-ExtPred.py
 * [ChemProp](https://github.com/chemprop/chemprop) 
@@ -12,10 +12,10 @@
 * [Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
 
 #### LGBM-Control-5x10CV-ExtPred.py
-* [LightGBM](https://www.microsoft.com/en-us/research/project/lightgbm/) traditional 
+* [LightGBM](https://www.microsoft.com/en-us/research/project/lightgbm/) with traditional implementation
 
 #### LGBM-Delta-5x10CV-ExtPred.py
-* [LightGBM](https://www.microsoft.com/en-us/research/project/lightgbm/) delta  
+* [LightGBM](https://www.microsoft.com/en-us/research/project/lightgbm/) with delta implementation
 
 <br>
 
