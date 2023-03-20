@@ -6,16 +6,16 @@
 * DeepDelta  
 
 #### ChemProp-5x10CV-ExtPred.py
-* ChemProp  
+* [ChemProp](https://github.com/chemprop/chemprop) 
 
 #### RF-5x10CV-ExtPred.py
-* Random Forest
+* Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
 
 #### LGBM-Control-5x10CV-ExtPred.py
-* LightGBM traditional 
+* [LightGBM](https://www.microsoft.com/en-us/research/project/lightgbm/) traditional 
 
 #### LGBM-Delta-5x10CV-ExtPred.py
-* LightGBM delta  
+* [LightGBM](https://www.microsoft.com/en-us/research/project/lightgbm/) delta  
 
 <br>
 
