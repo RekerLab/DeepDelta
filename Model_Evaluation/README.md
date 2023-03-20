@@ -29,12 +29,13 @@
 ```math
 DeepDelta(x,x)= 0. 
 ```
-and calculate reverse predictions for Eq. 2 (with swapped input molecules, predictions should be the inverse of the original predictions):
+
+* and calculate reverse predictions for Eq. 2 (with swapped input molecules, predictions should be the inverse of the original predictions):
 ```math
 DeepDelta(x,y)= -DeepDelta(y,x).
 ```
 
-and calculate predicted differences between three molecules for Eq. 3 (predicted difference between three molecules should be additive):
+* and calculate predicted differences between three molecules for Eq. 3 (predicted difference between three molecules should be additive):
 ```math
 DeepDelta(x,y) + DeepDelta(y,z)= DeepDelta(x,z)
 ```
