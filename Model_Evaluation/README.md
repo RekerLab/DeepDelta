@@ -40,11 +40,8 @@ Code to run 5x10 fold cross validation, generate and save trained models, and ru
 #### LGBM-Delta-5x10CV-SaveModels-ExtPreds.py
 Code to run 5x10 fold cross validation, generate and save trained models, and run external test set predictions for the LightGBM delta models. 
 
-#### ChemSimilarityVsPredictions.py
-Code to compare the chemical similarity of pairs to the delta values and predictive error of the pairs. 
-
-#### SameScaffoldAnalysis.py
-Code to compare the chemical pairs with shared scaffolds to pairs who do not share scaffolds. 
+#### Scaffold-Chemical-Similiarity-Analysis.py
+Code to analyze the chemical similarity of pairs and compare the chemical pairs with shared scaffolds to pairs who do not share scaffolds. 
 
 #### EquationOne.py
 Code to calculate property differences for exact same molecular inputs to satisfy Eq 1 (with same molecule for both inputs, predictions should be zero): 
