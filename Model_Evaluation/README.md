@@ -37,11 +37,8 @@ Code to run 5x10 fold cross validation and external test set predictions for the
 #### RF-LGBM-Control-5x10CV-SaveModels-ExtPreds.py
 Code to run 5x10 fold cross validation, generate and save trained models, and run external test set predictions for the Random Forest and LightGBM models. 
 
-#### LGBMDelta5x10CV.py
-Code to run 5x10 fold cross validation and save the LightGBM delta models. 
-
-#### LGBMDeltaExtPreds.py
-Code to run external test set predictions for the LightGBM delta models from saved models.  
+#### LGBM-Delta-5x10CV-SaveModels-ExtPreds.py
+Code to run 5x10 fold cross validation, generate and save trained models, and run external test set predictions for the LightGBM delta models. 
 
 #### ChemSimilarityVsPredictions.py
 Code to compare the chemical similarity of pairs to the delta values and predictive error of the pairs. 
