@@ -3,19 +3,19 @@
 ## Model Training, Cross-Validation, and External Test Set Predictions
 
 #### DeepDelta-5x10CV-ExtPred.py
-* DeepDelta models. 
+* DeepDelta  
 
 #### ChemProp-5x10CV-ExtPred.py
-* ChemProp models. 
+* ChemProp  
 
 #### RF-5x10CV-ExtPred.py
-* Random Forest models. 
+* Random Forest
 
 #### LGBM-Control-5x10CV-ExtPred.py
-* LightGBM traditional models. 
+* LightGBM traditional 
 
 #### LGBM-Delta-5x10CV-ExtPred.py
-* LightGBM delta models. 
+* LightGBM delta  
 
 <br>
 
