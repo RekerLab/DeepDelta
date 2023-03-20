@@ -29,7 +29,7 @@
 ```math
 DeepDelta(x,x)= 0. 
 ```
-   and calculate reverse predictions for Eq. 2 (with swapped input molecules, predictions should be the inverse of the original predictions):
+&nbsp;&nbsp;and calculate reverse predictions for Eq. 2 (with swapped input molecules, predictions should be the inverse of the original predictions):
 ```math
 DeepDelta(x,y)= -DeepDelta(y,x).
 ```
