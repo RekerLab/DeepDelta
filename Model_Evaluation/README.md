@@ -20,12 +20,12 @@ Code to calculate property differences for exact same molecular inputs to satisf
 ```math
 DeepDelta(x,x)= 0. 
 ```
-Also code to calculate reverse predictions for Eq. 2 (with swapped input molecules, predictions should be the inverse of the original predictions):
+and calculate reverse predictions for Eq. 2 (with swapped input molecules, predictions should be the inverse of the original predictions):
 ```math
 DeepDelta(x,y)= -DeepDelta(y,x).
 ```
 
-ALso code to calculate if the predicted difference between three molecules are additive to satisfy Eq 3 (predicted difference between three molecules should be additive):
+and calculate if the predicted difference between three molecules are additive to satisfy Eq 3 (predicted difference between three molecules should be additive):
 ```math
 DeepDelta(x,y) + DeepDelta(y,z)= DeepDelta(x,z)
 ```
