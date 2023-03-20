@@ -34,31 +34,28 @@ DeepDelta(x,y)= -DeepDelta(y,x).
 #### ChemProp5x10CV_ExtPred.py
 Code to run 5x10 fold cross validation and external test set predictions for the ChemProp model. 
 
-#### RF-LGBM-Control5x10CV.ipynb
+#### RF-LGBM-Control5x10CV.py
 Code to run 5x10 fold cross validation for the Random Forest and LightGBM models. 
 
-#### GenerateCTRLModels.ipynb
+#### GenerateCTRLModels.py
 Code to generate and save trained Random Forest and LightGBM models.
 
-#### RF-LGBM-CTRLExtPreds.ipynb
+#### RF-LGBM-CTRLExtPreds.py
 Code to run external test set predictions for the Random Forest and LightGBM models from saved models. 
 
-#### LGBMDelta5x10CV.ipynb
+#### LGBMDelta5x10CV.py
 Code to run 5x10 fold cross validation and save the LightGBM delta models. 
 
-#### LGBMDeltaExtPreds.ipynb
-Code to run external test set predictions for the LightGBM delta models from saved models. 
+#### LGBMDeltaExtPreds.py
+Code to run external test set predictions for the LightGBM delta models from saved models.  
 
-#### PlotCVData.ipynb
-Code to visualize cross-validation data and run statistics. 
-
-#### ChemSimilarityVsPredictions.ipynb
+#### ChemSimilarityVsPredictions.py
 Code to compare the chemical similarity of pairs to the delta values and predictive error of the pairs. 
 
-#### SameScaffoldAnalysis.ipynb
+#### SameScaffoldAnalysis.py
 Code to compare the chemical pairs with shared scaffolds to pairs who do not share scaffolds. 
 
-#### EquationOne.ipynb
+#### EquationOne.py
 Code to calculate property differences for exact same molecular inputs to satisfy Eq 1 (with same molecule for both inputs, predictions should be zero): 
 ```math
 DeepDelta(x,x)= 0. 
