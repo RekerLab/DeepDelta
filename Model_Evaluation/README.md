@@ -34,7 +34,7 @@ DeepDelta(x,x)= 0.
 DeepDelta(x,y)= -DeepDelta(y,x).
 ```
 
-  and calculate predicted differences between three molecules for Eq. 3 (predicted difference between three molecules should be additive):
+> and calculate predicted differences between three molecules for Eq. 3 (predicted difference between three molecules should be additive):
 ```math
 DeepDelta(x,y) + DeepDelta(y,z)= DeepDelta(x,z)
 ```
