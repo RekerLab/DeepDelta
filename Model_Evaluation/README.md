@@ -7,10 +7,10 @@ Code to run 5x10 fold cross validation and external test set predictions for the
 Code to run 5x10 fold cross validation and external test set predictions for the ChemProp model. 
 
 #### RF-LGBM-Control-5x10CV-ExtPreds.py
-Code to run 5x10 fold cross validation, save trained models, and run external test set predictions for the Random Forest and LightGBM models. 
+Code to run 5x10 fold cross validation and run external test set predictions for the Random Forest and LightGBM traditional models. 
 
 #### LGBM-Delta-5x10CV-ExtPreds.py
-Code to run 5x10 fold cross validation, save trained models, and run external test set predictions for the LightGBM delta models. 
+Code to run 5x10 fold cross validation and run external test set predictions for the LightGBM delta models. 
 
 #### Scaffold-Chemical-Similiarity-Analysis.py
 Code to analyze the chemical similarity of pairs and compare the chemical pairs with shared scaffolds to pairs who do not share scaffolds. 
