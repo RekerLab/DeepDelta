@@ -1,5 +1,7 @@
 # Code for Model Evaluation
 
+## Model Generation and Standard Evaluation Methods
+
 #### DeepDelta-5x10CV-ExtPred.py
 Code to run 5x10 fold cross validation and external test set predictions for the DeepDelta models. 
 
@@ -14,6 +16,8 @@ Code to run 5x10 fold cross validation and run external test set predictions for
 
 #### LGBM-Delta-5x10CV-ExtPred.py
 Code to run 5x10 fold cross validation and run external test set predictions for the LightGBM delta models. 
+
+## Additional Evaluation Methods
 
 #### Scaffold-Chemical-Similiarity-Analysis.py
 Code to analyze the chemical similarity of pairs and compare the chemical pairs with shared scaffolds to pairs who do not share scaffolds. 
