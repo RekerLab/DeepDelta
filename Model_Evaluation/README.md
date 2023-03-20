@@ -1,7 +1,5 @@
 # Code for Model Evaluation
 
-## All code is provided as python scripts as described below. 
-
 #### DeepDelta-5x10CV-ExtPred.py
 Code to run 5x10 fold cross validation and external test set predictions for the DeepDelta model. 
 
