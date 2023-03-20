@@ -1,6 +1,6 @@
-## Code for Model Evaluation
+# Code for Model Evaluation
 
-### Model Training, Cross-Validation, and External Test Set Predictions
+## Model Training, Cross-Validation, and External Test Set Predictions
 
 #### DeepDelta-5x10CV-ExtPred.py
 * DeepDelta models. 
@@ -19,7 +19,7 @@
 
 <br>
 
-### Additional Evaluation Methods
+## Additional Evaluation Methods
 
 #### Scaffold-Chemical-Similiarity-Analysis.py
 * Analyze the chemical similarity of pairs and compare the chemical pairs with shared scaffolds to pairs who do not share scaffolds. 
