@@ -34,14 +34,8 @@ DeepDelta(x,y)= -DeepDelta(y,x).
 #### ChemProp5x10CV_ExtPred.py
 Code to run 5x10 fold cross validation and external test set predictions for the ChemProp model. 
 
-#### RF-LGBM-Control5x10CV.py
-Code to run 5x10 fold cross validation for the Random Forest and LightGBM models. 
-
-#### GenerateCTRLModels.py
-Code to generate and save trained Random Forest and LightGBM models.
-
-#### RF-LGBM-CTRLExtPreds.py
-Code to run external test set predictions for the Random Forest and LightGBM models from saved models. 
+#### RF-LGBM-Control-5x10CV-SaveModels-ExtPreds.py
+Code to run 5x10 fold cross validation, generate and save trained models, and run external test set predictions for the Random Forest and LightGBM models. 
 
 #### LGBMDelta5x10CV.py
 Code to run 5x10 fold cross validation and save the LightGBM delta models. 
