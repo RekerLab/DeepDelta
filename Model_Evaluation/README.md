@@ -9,7 +9,7 @@
 * [ChemProp](https://github.com/chemprop/chemprop) 
 
 #### RF-5x10CV-ExtPred.py
-* Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
+* [Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
 
 #### LGBM-Control-5x10CV-ExtPred.py
 * [LightGBM](https://www.microsoft.com/en-us/research/project/lightgbm/) traditional 
