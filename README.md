@@ -1,4 +1,8 @@
-![DeepDelta](https://user-images.githubusercontent.com/127516906/227069037-4e012e2e-b044-44a8-a0f8-1a6fd3de769f.svg)
+<p align="center">
+
+![DeepDelta](https://user-images.githubusercontent.com/127516906/227069214-0d291ca0-df5a-4b9e-beac-5f3dc249eda5.png)
+  
+</p>
 
 DeepDelta is a pairwise deep learning approach that processes two molecules simultaneously and learns to predict property differences between two molecules. 
 
