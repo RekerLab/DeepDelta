@@ -90,3 +90,8 @@ Python code for evaluating DeepDelta and traditional models based on their abili
 
 Curated data for 10 ADMET property benchmarking training sets and 2 external test sets.
 
+## License
+
+The copyrights of the software are owned by Duke University. As such, two licenses for this software are offered:
+1. An open-source license under the GPLv2 license for non-commercial academic use.
+2. A custom license with Duke University, for commercial use or uses without the GPLv2 license restrictions. 
