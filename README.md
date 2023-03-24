@@ -16,13 +16,9 @@ We also derive three simple computational tests of our models based on first mat
 
 
 <p align="center">
-Mathematical Principle 1
+Equation 1: With same molecule for both inputs, predictions should be zero:
 </p>
 
-
-<p align="center"> 
-  With same molecule for both inputs, predictions should be zero:
-</p>
 
 ```math
 DeepDelta(x,x)= 0
@@ -31,12 +27,9 @@ DeepDelta(x,x)= 0
 <br />
 
 <p align="center">
-  Mathematical Principle 2
+Equation 2: With swapped input molecules, predictions should be inversed:
 </p>
 
-<p align="center">
-With swapped input molecules, predictions should be inversed: 
-</p>
 
 ```math
 DeepDelta(x,y)= - DeepDelta(y,x) 
@@ -45,12 +38,9 @@ DeepDelta(x,y)= - DeepDelta(y,x)
 <br />
 
 <p align="center">
-  Mathematical Principle 3
+Equation 3: Predicted difference between three molecules should be additive:
 </p>
 
-<p align="center">
-Predicted difference between three molecules should be additive:
- </p>
  
 ```math
 DeepDelta(x,y) + DeepDelta(y,z)= DeepDelta(x,z)
