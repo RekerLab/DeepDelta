@@ -82,10 +82,11 @@ ChemProp can be be installed from https://github.com/chemprop/chemprop
 
 ## Descriptions of Folders
 
+### Code
+
+Python code for evaluating DeepDelta and traditional models based on their ability to predict property differences between two molecules.
+
 ### Datasets
 
 Curated data for 10 ADMET property benchmarking training sets and 2 external test sets.
 
-### Code
-
-Python code for evaluating DeepDelta and traditional models based on their ability to predict property differences between two molecules.
