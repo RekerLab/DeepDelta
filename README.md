@@ -16,7 +16,7 @@ We also derive three simple computational tests of our models based on first mat
 
 
 <p align="center">
-Equation 1: With same molecule for both inputs, predictions should be zero:
+1. With same molecule for both inputs, predictions should be zero:
 </p>
 
 
@@ -27,7 +27,7 @@ DeepDelta(x,x)= 0
 <br />
 
 <p align="center">
-Equation 2: With swapped input molecules, predictions should be inversed:
+2. With swapped input molecules, predictions should be inversed:
 </p>
 
 
@@ -38,7 +38,7 @@ DeepDelta(x,y)= - DeepDelta(y,x)
 <br />
 
 <p align="center">
-Equation 3: Predicted difference between three molecules should be additive:
+3. Predicted difference between three molecules should be additive:
 </p>
 
  
