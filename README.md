@@ -63,7 +63,7 @@ If you use this data or code, please kindly cite: *pre-print citation*
 
 Comparison Models
 * [Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
-* [ChemProp](https://github.com/chemprop/chemprop)
+* [ChemProp v1.5.2](https://github.com/chemprop/chemprop)
 * [LightGBM](https://www.microsoft.com/en-us/research/project/lightgbm/)
 
 Given the larger size of delta datasets, we recommend using a GPU for significantly faster training.
