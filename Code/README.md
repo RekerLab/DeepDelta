@@ -2,10 +2,11 @@
 
 
 #### models.py
-* [DeepDelta](https://github.com/RekerLab/DeepDelta)
-* [ChemProp](https://github.com/chemprop/chemprop) 
-* [Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
-* [LightGBM](https://www.microsoft.com/en-us/research/project/lightgbm/) with traditional and delta implementation
+* Functions to run:
+  * [DeepDelta](https://github.com/RekerLab/DeepDelta)
+  * [ChemProp](https://github.com/chemprop/chemprop) 
+  * [Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
+  * [LightGBM](https://www.microsoft.com/en-us/research/project/lightgbm/) with traditional and delta implementation
 
 #### cross_validations.py
 * Test model performance using 5x10-fold cross-validation on 10 ADMET benchmarking datasets.
@@ -32,12 +33,3 @@ DeepDelta(x,y)= -DeepDelta(y,x).
 DeepDelta(x,y) + DeepDelta(y,z)= DeepDelta(x,z)
 ```
 
-* Calculate reverse predictions for Eq. 2 (with swapped input molecules, predictions should be the inverse of the original predictions):
-```math
-DeepDelta(x,y)= -DeepDelta(y,x).
-```
-
-* Calculate predicted differences between three molecules for Eq. 3 (predicted difference between three molecules should be additive):
-```math
-DeepDelta(x,y) + DeepDelta(y,z)= DeepDelta(x,z)
-```
