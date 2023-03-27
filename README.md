@@ -92,7 +92,7 @@ Curated data for 10 ADMET property benchmarking training sets and 2 external tes
 
 ### Results
 
-Results from 5x10-fold cross-validation required to run further analysis.
+Results from 5x10-fold cross-validation that are utilized in further analysis.
 
 <br />
 
