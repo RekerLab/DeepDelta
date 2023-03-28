@@ -2,11 +2,11 @@
 
 
 #### models.py
-* Functions to run:
+* Functions for the following machine learning models:
   * [DeepDelta](https://github.com/RekerLab/DeepDelta)
   * [ChemProp](https://github.com/chemprop/chemprop) 
   * [Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
-  * [LightGBM](https://www.microsoft.com/en-us/research/project/lightgbm/) with traditional and delta implementation
+  * [LightGBM](https://www.microsoft.com/en-us/research/project/lightgbm/) with both traditional and delta implementation
 
 #### cross_validations.py
 * Test model performance using 5x10-fold cross-validation on 10 ADMET benchmarking datasets.
