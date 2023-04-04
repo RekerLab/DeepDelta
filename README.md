@@ -75,11 +75,6 @@ To use ChemProp with GPUs, you will need:
 <br />
 
 
-## Installation
-ChemProp can be be installed from https://github.com/chemprop/chemprop 
-
-<br />
-
 ## Descriptions of Folders
 
 ### Code
