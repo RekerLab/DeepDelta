@@ -49,9 +49,9 @@ DeepDelta(x,y) + DeepDelta(y,z)= DeepDelta(x,z)
 <br />
 
 
-For more information, please refer to: *pre-print link*
+For more information, please refer to: https://chemrxiv.org/engage/chemrxiv/article-details/642d823f0784a63aee949898 
 
-If you use this data or code, please kindly cite: *pre-print citation*
+If you use this data or code, please kindly cite: Fralish Z, Chen A, Skaluba P, Reker D. DeepDelta: Predicting Pharmacokinetic Improvements of Molecular Derivatives with Deep Learning. ChemRxiv. Cambridge: Cambridge Open Engage; 2023
 
 <br />
 
