@@ -7,8 +7,6 @@
   * [ChemProp](https://github.com/chemprop/chemprop) 
   * [Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
   * [LightGBM](https://www.microsoft.com/en-us/research/project/lightgbm/) with both traditional and delta implementation
-  
-  _Please note that for LightGBM models, min_child_samples = 5 was used for the FUBrain dataset due to the small size of the original dataset. We are incorporating this exception into the uploaded code currently and will update soon._
 
 #### cross_validations.py
 * Test model performance using 5x10-fold cross-validation on 10 ADMET benchmarking datasets.
