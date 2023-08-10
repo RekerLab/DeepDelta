@@ -236,7 +236,7 @@ class Delta_LGBM(abstractDeltaModel):
         pair_data = pd.merge(data, data, how='cross') # Cross merge data to make pairs
         
         pair_data["Fingerprint"] =  pair_data.Fingerprint_x.combine(pair_data.Fingerprint_y, np.append) # concatenate ExplicitBitVec objects from RDKIT
-        pair_data["Delta"] = pair_data.Y_x - pair_data.Y_y # calculate Delta values
+        pair_data["Delta"] = pair_data.Y_y - pair_data.Y_x # calculate Delta values
         
         pair_data.drop(['Fingerprint_x','Fingerprint_y','Y_x','Y_y'], axis=1, inplace=True) # remove unnecessary data
         self.model.fit(np.vstack(pair_data.Fingerprint.to_numpy()),pair_data.Delta) # fit model on pair training data
