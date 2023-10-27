@@ -49,7 +49,7 @@ DeepDelta(x,y) + DeepDelta(y,z)= DeepDelta(x,z)
 <br />
 
 
-For more information, please refer to [our manuscript.](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-023-00769-x ) 
+For more information, please refer to the [associated publication](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-023-00769-x ) 
 
 If you use this data or code, please kindly cite: Fralish, Z., Chen, A., Skaluba, P. et al. DeepDelta: predicting ADMET improvements of molecular derivatives with deep learning. J Cheminform 15, 101 (2023). https://doi.org/10.1186/s13321-023-00769-x
 
