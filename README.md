@@ -56,6 +56,10 @@ For more information, please refer to the [associated publication](https://jchem
 
 If you use this data or code, please kindly cite: Fralish, Z., Chen, A., Skaluba, P. et al. DeepDelta: predicting ADMET improvements of molecular derivatives with deep learning. J Cheminform 15, 101 (2023). https://doi.org/10.1186/s13321-023-00769-x
 
+If you use the MPNN-based implementation, please also kindly cite: Vermeire, F. H., & Green, W. H. (2021). Transfer learning for solvation free energies: From quantum chemistry to experiments. Chemical Engineering Journal, 418, 129307.
+
+If you use the tree-based implementation, please also kindly cite: Ke, G., Meng, Q., Finley, T., Wang, T., Chen, W., Ma, W., ... & Liu, T. Y. (2017). Lightgbm: A highly efficient gradient boosting decision tree. Advances in neural information processing systems, 30.
+
 <br />
 
 ## Requirements
