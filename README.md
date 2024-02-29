@@ -13,7 +13,7 @@ The technical novelty of DeepDelta is the transformation of a classically single
 ![image](https://user-images.githubusercontent.com/127516906/225358174-ecb26783-a551-47c4-90f3-6950babee377.png)
 **Figure 1: Traditional and Pairwise Architectures. (A)** Traditional molecular machine learning models take singular molecular inputs and predict absolute properties of molecules. Predicted property differences can be calculated by subtracting predicted values for two molecules. **(B)** Pairwise models train on differences in properties from pairs of molecules to directly predict property changes of molecular derivatizations. **(C)** Molecules are cross-merged to create pairs only after cross-validation splits to prevent the risk of data leakage during model evaluation. Through this, every molecule in the dataset can only occur in pairs in the training or testing data but not both.
 
-On 10 pharmacokinetic benchmark tasks, our DeepDelta approach outperforms two established molecular machine learning algorithms, the message passing neural network (MPNN) ChemProp and Random Forest using radial fingerprints. 
+On 10 pharmacokinetic benchmark tasks, our DeepDelta approach outperforms the single molecule implementation of the message passing neural network (MPNN) ChemProp and Random Forest using radial fingerprints. 
 
 We also derive three simple computational tests of our models based on first mathematical principles and show that compliance to these tests correlate with overall model performance – providing an innovative, unsupervised, and easily computable measure of expected model performance and applicability. 
 
