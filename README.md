@@ -68,7 +68,7 @@ If you use the tree-based implementation, please also kindly cite: Ke, G., Meng,
 * [numpy](https://numpy.org/)
 * [pandas](https://github.com/pandas-dev/pandas)
 
-Comparison Models
+Machine Learning Models
 * [Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
 * [ChemProp v1.5.2](https://github.com/chemprop/chemprop)
 * [LightGBM](https://www.microsoft.com/en-us/research/project/lightgbm/)
