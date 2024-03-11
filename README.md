@@ -70,12 +70,12 @@ If you use the tree-based implementation, please also kindly cite: Ke, G., Meng,
 
 Machine Learning Models
 * [Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
-* [ChemProp v1.5.2](https://github.com/chemprop/chemprop)
+* [Chemprop v1.5.2](https://github.com/chemprop/chemprop)
 * [LightGBM](https://www.microsoft.com/en-us/research/project/lightgbm/)
 
 Given the larger size of delta datasets, we recommend using a GPU for significantly faster training.
 
-To use ChemProp with GPUs, you will need:
+To use Chemprop with GPUs, you will need:
 * cuda >= 8.0
 * cuDNN
 
